@@ -3,7 +3,7 @@ import mysql.connector
 def create_db():
     try:
         # Connect to MySQL
-        mydb = mysql.connector.connect(host='localhost', user='root', password='varsha', database='firstproject')
+        mydb = mysql.connector.connect(host='localhost', user='root', password='----', database='firstproject')
         cur = mydb.cursor()
 
         # Create 'course' table
